@@ -1,3 +1,7 @@
+:root{
+  --projectNum: 0;
+}
+
 body{
 
 }
@@ -22,19 +26,7 @@ img{
   
 }
 
-ol{
-  list-style-type: none;
-}
 
-.projectTitleStart{
-  counter-reset: projectNum;
-}
-
-ol .projectTitleStart:before, ol .projectTitle:before{
-  
-  counter-increment: projectNum;
-  content: counter(projectNum) ". ";
-}
 
 
 

@@ -3,11 +3,12 @@
 }
 
 body{
-
+  background-color: lavenderblush;
 }
 
 h1{
-
+  text-shadow: 3px 3px black;
+  background-color: #8733ff;
 }
 
 h2{
@@ -16,6 +17,7 @@ h2{
 
 h3{
   font-weight: bold;
+  margin-top: 10px;
 }
 
 h4{
@@ -23,15 +25,27 @@ h4{
 }
 
 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container{
   
 }
 
 .jumbotron{
-
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-shadow: 2px 2px black;
+  background-color: #8733ff;
+  color: #e4deee;
+  text-align: center;
+  font-family: cursive;
 }
 
 .sideBar{
-  
+  background-color: blueviolet;
 }
 
 .sideBar p{
@@ -47,18 +61,34 @@ img{
   color: blue;
 }
 
-.mainSection .hightlight{
+.well-sm .hightlight{
   background-color: yellow;
   font-weight: bold;
+}
+
+.panel-heading{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.panel-body p{
+  font-size: 15px;
+}
+
+.floatImgL{
+  float: left;
+  height: 70px;
+  width: auto;
+  margin-right: 10px;
+}
+.floatImgR{
+  float: right;
+  height: 70px;
+  width: auto;
+  margin-right: 10px;
 }
 
 #myName{
   font-size: larger;
   color: purple;
-}
-
-#floatImg{
-  float: left;
-  height: 70px;
-  width: auto;
 }

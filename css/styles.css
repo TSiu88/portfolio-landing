@@ -1,0 +1,62 @@
+body{
+
+}
+
+h1{
+
+}
+
+h2{
+  font-weight: bold;
+}
+
+h3{
+  font-weight: bold;
+}
+
+h4{
+  font-style: italic;
+}
+
+img{
+  
+}
+
+ol{
+  list-style-type: none;
+}
+
+.projectTitleStart{
+  counter-reset: projectNum;
+}
+
+ol .projectTitleStart:before, ol .projectTitle:before{
+  
+  counter-increment: projectNum;
+  content: counter(projectNum) ". ";
+}
+
+
+
+.jumbotron{
+
+}
+
+.sideBar{
+  
+}
+
+.sideBar p{
+  font-style: italic;
+}
+
+#myName{
+  font-size: larger;
+  color: purple;
+}
+
+#floatImg{
+  float: left;
+  height: 70px;
+  width: auto;
+}

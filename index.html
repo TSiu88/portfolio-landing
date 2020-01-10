@@ -15,10 +15,10 @@
 
       <div class="row">
         <!--sideBar-->
-        <div class="col-md-3">
+        <div class="col-md-3" class="sideBar">
           <h3>About Me:</h3>
           <img src="img/me.png" alt="Picture of me" title="A picture representing me">
-          <p>Hi! My name is Tiffany Siu and I have just started to learn programming from Epicodus in Seattle.  These are currently the class projects that I have been doing in class, but I hope to be able to add my own projects here as well in the future.</p>
+          <p>Hi! My name is <strong id="myName">Tiffany Siu</strong> and I have just started to learn programming from Epicodus in Seattle.  These are currently the class projects that I have been doing in class, but I hope to be able to add my own projects here as well in the future.</p>
           <hr>
 
           <h4>Background:</h4>
@@ -47,7 +47,7 @@
             <div class="row">
               <div class="col-md-6">
                 <ol>
-                  <li> Hello World
+                  <li class="projectTitleStart"> Hello World
                     <ul>
                       <li>The first HTML project to practice using git</li>
                       <li>Experimented with how tags worked and added some extra content</li>
@@ -58,7 +58,7 @@
               </div>
               <div class="col-md-6">
                 <ol>
-                  <li> Blog Post
+                  <li class="projectTitle"> Blog Post
                     <ul>
                       <li>Desc 3</li>
                       <li>Desc 4</li>
@@ -68,12 +68,12 @@
                 </ol>
               </div>
             </div>
-            
+
 
             <div class="row">
               <div class="col-md-6">
                 <ol>
-                  <li> Cookie Recipe
+                  <li class="projectTitle"> Cookie Recipe
                     <ul>
                       <li>Desc 6</li>
                       <li>Desc 7</li>
@@ -182,6 +182,14 @@
           </div> <!-- well end -->
         </div> <!--main section end-->
       </div> <!--main and sideBar row end-->
+
+      <!--Links-->
+      <div class="row">
+        <div class="well well-sm">
+          <img id="floatImg" src="img/me.png" alt="pic">
+          <blockquote>View my projects in GitHub <a href="https://github.com/TSiu88">HERE</a>!</blockquote>
+        </div>
+      </div>
 
     </div> <!--container end-->
   </body> 

@@ -38,12 +38,16 @@ img{
   font-style: italic;
 }
 
+.mainSection p{
+  text-align: center;
+}
+
 .languages{
   font-style: italic;
   color: blue;
 }
 
-.hightlight{
+.mainSection .hightlight{
   background-color: yellow;
   font-weight: bold;
 }

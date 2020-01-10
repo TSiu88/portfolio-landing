@@ -38,6 +38,16 @@ img{
   font-style: italic;
 }
 
+.languages{
+  font-style: italic;
+  color: blue;
+}
+
+.hightlight{
+  background-color: yellow;
+  font-weight: bold;
+}
+
 #myName{
   font-size: larger;
   color: purple;

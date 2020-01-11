@@ -1,6 +1,6 @@
 # _Portfolio Landing Site_
 
-#### _Friday assignment for Epicodus, 01.10.2020_
+#### _Friday Independent Assignment for Epicodus, 01.10.2020_
 
 #### By _**Tiffany Siu**_
 

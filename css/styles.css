@@ -1,18 +1,15 @@
-:root{
-  --projectNum: 0;
-}
-
 body{
-  background-color: lavenderblush;
+  background-color: #c0c0c0;
 }
 
 h1{
   text-shadow: 3px 3px black;
-  background-color: #8733ff;
 }
 
 h2{
   font-weight: bold;
+  color: #00a0a0;
+  text-shadow: 1px 1px black;
 }
 
 h3{
@@ -30,40 +27,46 @@ img{
   margin-right: auto;
 }
 
-.container{
-  
+hr{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .jumbotron{
   padding-top: 10px;
   padding-bottom: 10px;
   text-shadow: 2px 2px black;
-  background-color: #8733ff;
+  background-color: #900090;
   color: #e4deee;
   text-align: center;
   font-family: cursive;
 }
 
-.sideBar{
-  background-color: blueviolet;
+.col-md-3{
+  background-color: lavender;
 }
 
-.sideBar p{
+.col-md-3 p{
   font-style: italic;
 }
 
-.mainSection p{
-  text-align: center;
+.col-md-9 .highlight{
+  background-color: yellow;
+}
+
+.col-md-9 .projectTitle::first-line{
+  font-weight: bold;
 }
 
 .languages{
   font-style: italic;
-  color: blue;
+  color: #009e73;
 }
 
-.well-sm .hightlight{
-  background-color: yellow;
-  font-weight: bold;
+.well-sm{
+  border-style: double;
+  border-width: 5px;
+  border-color: #808080;
 }
 
 .panel-heading{

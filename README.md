@@ -6,7 +6,7 @@
 
 ## Description
 
-_This site is the Week 1 Friday assignment for Epicodus' full time C#/React course.  It is a portfolio of all the projects currently done in class on a website that is designed using the elements learned up till now.  It showcases knowledge of tags, indentation, spacing, colors, images, text, grids, and many other skills._
+_This site is the Week 1 Friday independent assignment for Epicodus' full time Intro to Programming and C#/React course.  It is a portfolio of all the projects currently done in class that has been uploaded to GitHub.  This website was designed using the elements learned in class up till now.  It showcases knowledge of tags, indentation, spacing, colors, images, text, bootstrap, grids, and many other skills._
 
 ## Setup/Installation Requirements
 
